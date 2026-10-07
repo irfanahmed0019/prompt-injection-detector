@@ -1,6 +1,6 @@
-# Prompt-Injection Guardrail
+# Prompt Injection Detector
 
-A small, fast detector that flags prompt-injection attempts in text sent to an LLM, served as a tested FastAPI service with CI. Prompt injection is a top security risk for LLM apps, so this is the kind of guardrail that sits in front of a chatbot or RAG pipeline.
+A small, fast detector that flags prompt-injection attempts in text sent to an LLM, served as a tested FastAPI service with CI. Prompt injection is a top security risk for LLM apps, so this is the kind of detector that sits in front of a chatbot or RAG pipeline.
 
 ## Results
 
