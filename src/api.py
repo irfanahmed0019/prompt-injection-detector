@@ -6,7 +6,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
 MODEL_PATH = Path(__file__).resolve().parent.parent / "models" / "detector.joblib"
-app = FastAPI(title="Prompt-injection guardrail", version="1.0")
+app = FastAPI(title="Prompt Injection Detector", version="1.0")
 _model = None
 
 
